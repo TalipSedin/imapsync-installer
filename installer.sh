@@ -1,5 +1,7 @@
 echo "Installing Dependencies"
 sudo apt-get -y install git rcs make makepasswd cpanminus apt-file
+sudo apt install libproc-processtable-perl
+
 
 sudo apt-get -y install gcc libssl-dev libauthen-ntlm-perl \
      libclass-load-perl libcrypt-ssleay-perl liburi-perl \
@@ -13,7 +15,7 @@ sudo apt-get -y install gcc libssl-dev libauthen-ntlm-perl \
      libencode-imaputf7-perl libfile-tail-perl libregexp-common-perl \
      libregexp-common-email-address-perl libregexp-common-perl \
      libregexp-common-time-perl libtest-deep-fuzzy-perl libtest-deep-perl \
-     libtest-deep-json-perl libtest-deep-perl libtest-deep-type-perl \
+     libtest-deep-json-perl libtest-deep-perl libtest-deep-type-perl libproc-processtable-perl \
      libtest-deep-unorderedpairs-perl libtest-modern-perl libtest-most-perl
 
 echo "Installing required Python modules using CPAN"
